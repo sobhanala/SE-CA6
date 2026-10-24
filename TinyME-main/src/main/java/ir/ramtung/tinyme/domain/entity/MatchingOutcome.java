@@ -1,0 +1,11 @@
+package ir.ramtung.tinyme.domain.entity;
+
+public enum MatchingOutcome {
+    EXECUTED,
+    NOT_ENOUGH_CREDIT,
+    NOT_ENOUGH_POSITIONS,
+    MINIMUM_QUANTITY_INSUFFICIENT,
+    CANT_UPDATE_MIN_QUANTITY,
+    INACTIVE_ORDER_ENQUEUED,
+
+}
